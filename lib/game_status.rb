@@ -46,8 +46,8 @@ def winner(board)
   if maybe_winning_array == nil 
     nil 
   else 
-    spot_in_array = maybe_winning_array[0]
-    board[spot_in_array]
+    spot_in_board = maybe_winning_array[0]
+    board[spot_in_board]
   end 
 end 
 
