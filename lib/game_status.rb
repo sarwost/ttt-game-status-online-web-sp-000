@@ -42,12 +42,12 @@ def over?(board)
 end 
 
 def winner(board)
-  won?(board)
   applesauce = won?(board)
   if applesauce == nil 
     nil 
   else 
-    board[applesauce[0]]
+    spot = applesauce[0]
+    board[spot]
   end 
 end 
 
