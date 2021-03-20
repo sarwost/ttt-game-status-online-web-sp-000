@@ -42,6 +42,7 @@ def over?(board)
 end 
 
 def winner(board)
-  won?(board)
+  applesauce = won?(board)
+  board[applesauce]
 end 
 
