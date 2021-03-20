@@ -47,7 +47,7 @@ def winner(board)
   if applesauce == nil 
     nil 
   else 
-    board[applesauce]
+    board[applesauce[0]]
   end 
 end 
 
