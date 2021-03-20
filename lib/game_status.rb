@@ -42,12 +42,12 @@ def over?(board)
 end 
 
 def winner(board)
-  winning_array = won?(board)
-  if winning_array == nil 
+  maybe_winning_array = won?(board)
+  if maybe_winning_array == nil 
     nil 
   else 
-    spot = winning_array[0]
-    board[spot]
+    spot_in_array = maybe_winning_array[0]
+    board[spot_in_array]
   end 
 end 
 
