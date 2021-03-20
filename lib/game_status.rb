@@ -43,7 +43,11 @@ end
 
 def winner(board)
   won?(board)
-  #applesauce = won?(board)
-  #board[applesauce]
+  applesauce = won?(board)
+  if applesauce == nil 
+    nil 
+    else 
+      board 
+      = board[applesauce]
 end 
 
